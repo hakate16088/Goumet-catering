@@ -1,0 +1,6 @@
+/* Mobile */
+@media (max-width:739px) {
+    #banner img {
+        width: 100%;
+    }
+}

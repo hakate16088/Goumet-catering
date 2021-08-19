@@ -1,0 +1,189 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+
+.desk_color {
+    color: #757575;
+}
+
+.pd-8-16 {
+    padding: 8px 16px;
+}
+
+.mr-tb-10 {
+    margin: 10px 0px;
+}
+
+.mr-tb-15 {
+    margin: 15px 0px;
+}
+
+.mr-tb-18 {
+    margin: 18px 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+html, body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+
+#header nav {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 3px;
+}
+
+#header nav #nav {
+    display: flex;
+    list-style: none;
+    padding: 8px 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#header a:hover, #contact .btn:hover {
+    background-color: #cccccc;
+    color: #000000;
+    cursor: pointer;
+}
+
+#banner {
+    position: relative;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+}
+
+#banner .banner_content {
+    position: absolute;
+    padding: 12px 24px;
+    margin: 10px 0px;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+#content {
+    margin: 0px 70px;
+}
+
+#content #about, #content #menu {
+    display: flex;
+    padding: 64px 0px;
+    justify-content: space-between;
+}
+
+.img {
+    padding: 12px 24px;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+#content #about img {
+    width: 500px;
+}
+
+#content #about .content_about, .content_menu {
+    padding: 12px 24px;
+}
+
+#content .content_about h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 10px 0px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+#content .content_about h3 {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+#content .content_about p {
+    font-size: 16px;
+    margin: 18px 0px;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+
+.content_menu h1 {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.content_menu h4 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+#content #contact {
+    padding: 64px 16px;
+}
+
+#contact h1 {
+    font-size: 36px;
+}
+
+#contact form input {
+    width: 100%;
+    padding: 18px 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 1px solid #757575;
+    margin-bottom: 16px;
+}
+
+#contact .btn {
+    margin: 32px 0px;
+    padding: 8px 16px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#footer {
+    padding: 32px 0px;
+    background-color: #f1f1f1;
+}
+
+#footer-link:hover {
+    color: green;
+    opacity: 0.7;
+}
